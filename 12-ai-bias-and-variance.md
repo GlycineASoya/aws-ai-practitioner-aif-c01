@@ -31,7 +31,7 @@
 
 ## Variance
 
-1. Definition: The error introduced by the model's sensisvity to small fluctuations in the training dataset
+1. Definition: The error introduced by the model's sensivity to small fluctuations in the training dataset
 2. Sources:
    1. Overfitting: the model consumes not training data only, but the noises and outliers
    2. Model Complexity: complex models with too many parameters tend to have high variance
