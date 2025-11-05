@@ -1,0 +1,13 @@
+name: Spellcheck
+
+on:
+    push:
+        branches:
+        - master
+
+jobs:
+    spellcheck:
+        uses: codespell-project/actions-codespell@v2
+        with:
+            path: .
+            only_warn: 1
