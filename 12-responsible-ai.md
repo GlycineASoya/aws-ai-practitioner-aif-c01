@@ -32,3 +32,7 @@
    3. Solution:
       1. Data Integrity: using reliable and high-quality data
       2. Explainability: the decisions are clear for humans
+
+## AWS Responsible AI Tools
+
+1. AWS Bedrock Guardrails
