@@ -1,12 +1,12 @@
 name: Spellcheck
 
 on:
-    push:
-        branches:
-        - master
+  push:
+    branches:
+    - master
 
 jobs:
-    spellcheck:
-        runs-on: ubuntu-latest
-        steps:
-        -   uses: codespell-project/actions-codespell@v2
+  spellcheck:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: codespell-project/actions-codespell@v2
